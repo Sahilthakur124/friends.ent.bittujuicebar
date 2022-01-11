@@ -1,0 +1,313 @@
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    background-image: url(/IMG.JPG/IMG2.jpg);
+    
+}
+
+
+.CONTAINER{
+    
+    background-color:BLACK);
+    color: white;
+    text-align: center;
+    height: 270PX;
+    width: 200px;
+
+                    
+
+}
+.BOX{
+    background-color: rgb(8, 8, 8);
+    width: 200PX;
+    height: 300PX;
+    border-radius: 25PX;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 10PX -10PX 5PX rgb(255, 254, 254);
+    
+
+
+}
+.BOX:hover{
+    width: 230PX;
+    box-shadow:10PX -10PX 5PX RED;
+    font-size: 18PX;
+}
+.BOX li{
+    color: white;
+    display: flex;
+    margin-top: 50PX;
+    margin-left: 50px;
+    margin-bottom: 1PX;
+    padding-top: 8PX;
+    padding-left: 15PX;
+    text-decoration: none;
+    
+}
+
+.BOX li a{
+    color: white;
+    text-decoration: none;
+    text-align:left;
+}
+
+.CONTAINER1{
+
+    background-color:rgb(10, 10, 10);
+    color: white;
+   
+    height: 270PX;
+    width: 1000px;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: -260px;
+    border-radius: 25px;
+}
+.NAME{
+    width: 1000PX;
+    height: 300PX;
+    padding-top: -10PX;
+    margin-top: -5PX;
+    background-color: black;
+    text-align: center;
+    box-shadow: 10PX -15PX 5PX rgb(255, 254, 254);
+    border-radius: 25PX;
+}
+.NAME:hover{
+    width: 1050PX;
+    box-shadow:10PX -10PX 5PX RED;
+    font-size: 18PX;
+}
+ h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 80PX;
+    font-size: 40PX;
+    position: relative;
+    overflow: hidden;
+    text-shadow: -10PX 5PX 20PX rgb(255, 0, 0);
+    background: black;
+
+    
+}
+H1 SPAN{ 
+    color: RED;
+    
+}
+
+a:hover{
+    background-color: RED;
+    padding: 3PX 3PX ;
+    width: 100PX;
+    height: 25PX;
+    
+
+}
+H1::before{
+    content: '';
+    position:absolute;
+    left: 120%;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(90DEG,TRANSPARENT 0%,#000 5%,#000 100%);
+     animation-name: ANIMATE ;
+     animation-duration: 5S;
+     animation-iteration-count: 1S;
+     -o-animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ 
+    
+}
+
+@keyframes ANIMATE {
+    0%{
+     left: -20%;
+    }
+    50%{
+    left: 120%;
+    }
+    100% {
+    left: -20%;
+    }
+ }
+
+ P{
+     color: rgb(238, 230, 230);
+     font-size: 30PX;
+     text-align: center;
+     margin-top: 100PX;
+     
+ }
+ b{
+     color: RED;
+     letter-spacing: 2PX;
+ }
+ 
+/*MOBILE SCREEN 400PX*/
+
+
+
+@media(MAX-WIDTH:412PX){
+    .CONTAINER [
+        margin-left:10PX;
+    ]
+
+
+
+    
+    
+    .BOX {
+     
+         MARGIN-LEFT: 10PX;
+    }
+    
+    
+    
+    
+
+    .CONTAINER1 {
+      
+      
+        height: 200PX;
+        width: 270PX;
+       
+        margin-left: 10px;
+        margin-top: 70px;
+      
+    }
+    
+    
+
+    .NAME {
+        width: 30PX;
+        height: 200PX;
+         margin-top: 10PX;
+        
+       
+        
+    }
+      
+
+    h1 {
+       
+      
+        padding-top: 45PX;
+        font-size: 15PX;
+    }
+
+    .NAME:hover{
+        width: 350PX;
+        box-shadow:10PX -10PX 5PX rgb(245, 30, 2);
+        font-size: 18PX;
+    }
+
+    img{
+        padding-left: 10PX;
+        width: 250PX;
+    }
+                                  
+}
+
+@media(MAX-WIDTH:501PX){
+
+     
+    .BOX {
+     
+        MARGIN-LEFT: 140PX;
+   }
+   
+   
+
+   .CONTAINER1 {
+     
+     
+       height: 200PX;
+       width: 320PX;
+      
+       margin-left: 50px;
+       margin-top: 70px;
+     
+   }
+   
+   
+
+   .NAME {
+       width: 320PX;
+       height: 200PX;
+        margin-top: 10PX;
+       
+      
+       
+   }
+     
+
+   h1 {
+           
+       padding-top: 45PX;
+       font-size:15PX;
+       
+   }
+
+    P{
+        padding-left: 50PX;
+
+    }
+
+    img {
+
+        padding-left: 80PX;
+        margin-top: 100PX;
+        WIDTH: 250PX;
+    }
+}
+
+
+
+img{
+    padding-left: 280PX;
+    margin-top: 100PX;
+    width: 800PX;
+}
+
+footer{
+    background-color:rgb(207, 203, 203);
+    width: 1200PX;
+    height: 350PX;
+   margin-left: 70PX;
+   text-align: center;
+   margin-top: 100PX;
+   border-radius: 100PX;
+ 
+}
+h2 U {
+      
+    font-size: 30PX;
+  color: rgb(116, 121, 121);
+  
+}
+
+.INFORMATION p{
+    color: rgb(253, 197, 10);
+    text-align: center;
+}
+
+ table th{
+     width: 500PX;
+     text-align: center;
+ }
+  td{
+     color: rgb(112, 108, 112);
+     font-size: medium;
+     padding-top: 40PX;
+ }
+ TD A{
+     text-decoration: none;
+     background-color: rgb(26, 131, 5);
+     color:white;
+     font-size: x-large;
+     
+ } 
